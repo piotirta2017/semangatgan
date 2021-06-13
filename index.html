@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Tur Virtual Alian Butterfly Park">
+    <meta name="description"
+        content="Tur Virtual Alian Butterfly Park adalah hasil kerjasama dari Departemen Teknik Elektro dan Teknologi Informasi (DTETI) UGM dengan Alian Butterfly Park">
+    <meta name="keywords"
+        content="virtual tour, tur virtual, kupu kupu, kupu-kupu, alian, alian butterfly park, wisata kupu-kupu, edukasi kupu-kupu, permainan kupu-kupu">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content=" days">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://virtualtour.alianbutterflypark.com/">
+    <meta property="og:title" content="Tur Virtual Alian Butterfly Park">
+    <meta property="og:description"
+        content="Tur Virtual Alian Butterfly Park adalah hasil kerjasama dari Departemen Teknik Elektro dan Teknologi Informasi (DTETI) UGM dengan Alian Butterfly Park">
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/icons-192%20(1).png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://virtualtour.alianbutterflypark.com/">
+    <meta property="twitter:title" content="Tur Virtual Alian Butterfly Park">
+    <meta property="twitter:description"
+        content="Tur Virtual Alian Butterfly Park adalah hasil kerjasama dari Departemen Teknik Elektro dan Teknologi Informasi (DTETI) UGM dengan Alian Butterfly Park">
+    <meta property="twitter:image"
+        content="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/icons-192%20(1).png">
+
+    <title>Alian Virtual Tour</title>
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@^4.0.0/dist/aframe-event-set-component.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
+    <script src="./js/libraries/aframe-font-awesome.min.js"></script>
+    <script src="./js/butterfly-collection.js"></script>
+    <script src="./js/wall-audio.js"></script>
+
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/quiz.css">
+    <link rel="shortcut icon" type="image/jpg"
+        href="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/icons-192%20(1).png"
+        crossorigin="anonymous" />
+    <link rel="apple-touch-icon"
+        href="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/icons-192%20(1).png">
+
+    <link rel="manifest" href="/manifest.json">
+
+</head>
+
+<body onload="NextQuestion(0)">
+    <div id="splash">
+        <img src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/icons-192%20(1).png"
+            width="70" height="70" style="margin-left:auto; margin-right:auto; display:block; margin-bottom: 10px;"
+            alt="">
+        <p style="margin-bottom: 20px; font-weight: 800; color: #313131; font-size: 30px;">Alian Butterfly Park</p>
+        <!-- <div class="loading"></div> -->
+        <div style="position: absolute; height: 196px; top:79%; right: 2em;">
+            <img src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/animatedButterfly.gif"
+                style="height: 75%;">
+        </div>
+        <div style="height: 59px; right:inherit;bottom: inherit; position: absolute;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 59px;
+        color: black;">
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- SCREEN ORIENTATION -->
+    <div id="block_potrait">
+        <div id="block_content">
+            <img src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/icons-192%20(1).png"
+                width="70" height="70" style="margin-left:auto; margin-right:auto; display:block; margin-bottom: 20px;"
+                alt="">
+            <p id="title">Virtual Tour: Alian Butterfly Park</p>
+            <div id="buttons-container">
+                <button id="lock-landscape-button">Mulai Virtual Tour</button>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+    <a-scene physics="gravity: 0">
+
+        <!-- INLINE JS -->
+        <script src="./js/indexs.js"></script>
+        <script src="./js/zoom.js"></script>
+        <!--  -->
+
+        <a-assets>
+            <!-- SKY -->
+            <img id="point1" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/sky1.jpg"
+                crossorigin="anonymous" geometry="radius: 100" preload>
+            <img id="point3" src="https://cdn.glitch.com/3f991247-3927-4b05-983d-fd63391fccbf%2Fspace.jpg?1557199832205"
+                crossorigin="anonymous" geometry="radius: 100" preload>
+            <img id="point4" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/sky1.jpg"
+                crossorigin="anonymous" geometry="radius: 100" preload>
+            <img id="point5" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/sky1.jpg"
+                crossorigin="anonymous" geometry="radius: 100" preload>
+
+            <!-- VT 360 SKY -->
+            <a-entity id="panorama_group" preload>
+            </a-entity>
+            <!--  -->
+
+            <!-- IMAGE -->
+            <img id="alian" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/alian4.jpg"
+                crossorigin="anonymous">
+            <img id="hotspotx"
+                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/hotspot.png"
+                crossorigin="anonymous">
+            <img id="footstep"
+                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/footsteps.png"
+                crossorigin="anonymous" preload>
+            <img id="tutor_navigasi" src="./Tutorial_Navigasi_VR.png">
+            <img id="LogoAlian" src="./LogoALian.jpeg">
+            <img id="kupu1" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/koleksikupukupu.png" crossorigin="">
+            <img id="bg-kupuku" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/bg-kupukupu.png" crossorigin="">
+            
+            <!-- GLTF -->
+            <a-asset-item id="brickwall" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/gltf/BlackBrickWall%20(1).gltf" crossorigin></a-asset-item>
+
+            <!-- wall frame -->
+            <a-asset-item id="objWF" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/gltf/wall_frame/wall_frame.obj" crossorigin></a-asset-item>
+            <a-asset-item id="mtlWF" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/gltf/wall_frame/wall_frame.mtl" crossorigin></a-asset-item>
+
+            <a-entity id="butterfly_model"></a-entity>
+            <!-- <a-asset-item id="3d_butterfly" src="./gltf/Butterfly1.gltf" preload></a-asset-item> -->
+            <a-asset-item id="floor"
+                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/gltf/Floor2NoMat.gltf"
+                crossorigin="anonymous" preload></a-asset-item>
+            <a-mixin id="w" material="color: #D3D3D3;shader: flat;" geometry="primitive: box; width: 0.1; depth: 26"
+                preload></a-mixin>
+
+            <!-- INI NGE-LOAD MIXIN FLOOR & WALL -->
+            <a-entity id="mixin_group" preload></a-entity>
+
+            <!-- Utility -->
+            <a-mixin id="scale" scale="5 5 1"></a-mixin>
+            <a-mixin id="rotx" rotation="90 0 0"></a-mixin>
+            <a-mixin id="roty" rotation="0 90 0"></a-mixin>
+            <a-mixin id="rotz" rotation="0 0 90"></a-mixin>
+            <a-mixin id="rotxy" rotation="90 90 0"></a-mixin>
+            <a-mixin id="rotyz" rotation="0 90 90"></a-mixin>
+
+            <!-- Audio -->
+            
+
+        </a-assets>
+
+        <!-- CAMERA & CURSOR -->
+        <a-entity id="camrig" movement-controls="speed: 0.7; controls: keyboard, checkpoint"
+            checkpoint-controls="mode: animate; animateSpeed: 10" kinematic-body position="-28 8 40">
+            <a-entity camera id="zoomcam" look-controls>
+            </a-entity>
+        </a-entity>
+        <a-entity id="cursor" cursor="ray-origin: mouse" raycaster="objects: [geometry]"></a-entity>
+
+
+
+        <!--  -->
+
+        <!-- MAIN -->
+        <a-entity id="spots" hotspots>
+            <!-- HOMEPAGE -->
+            <a-entity id="group-point1" class="spotclass">
+                <a-box id="map_3" width="5" depth="0.1" height="2" position="-10 5 1" material="color: white"
+                    spot="linkto:#point3;spotgroup:group-point3" blinkanimation visible="false">
+                </a-box>
+                <a-box id="map_4" width="5" depth="0.1" height="2" position="0 0 0" material="color: white"
+                    spot="linkto:#point4;spotgroup:group-point4" blinkanimation visible="false">
+                </a-box>
+                <a-box id="map_5" width="5" depth="0.1" height="2" position="0 0 0" material="color: white"
+                    spot="linkto:#point5;spotgroup:group-point5" blinkanimation visible="false">
+                </a-box>
+                <a-box id="map_2" width="5.7" depth="0.1" height="2" position="-63 5 1" material="color: white"
+                    spot="linkto:#point2;spotgroup:group-point2" blinkanimation visible="false">
+                </a-box>
+            </a-entity>
+            <!--  -->
+
+            <!-- VIRTUAL 360 -->
+            <a-entity id="panorama_env_group">
+            </a-entity>
+            <!--  -->
+
+            <!-- VIRTUAL EXHIBITION 3D -->
+            <a-entity id="group-point3" scale="0 0 0">
+                <!-- <a-image id="tutor_nav" src="#tutor_navigasi" geometry="height: 30; width: 58" position="-28 10 60"
+                    visible="false"> -->
+                </a-image>
+                <a-image id="desktop_3d" src="#LogoAlian" geometry="height: 30; width: 58" position="-28 10 58"
+                    visible="true">
+                </a-image>
+                <a-plane id="btn_mulaiTour" height="2" color="#00CE1B" width="14" position="-28 1.5 70" mulaiTour>
+                    <a-text value="MULAI" width="25" color="white" anchor="left" baseline="center" position="-2 0.5 1">
+                    </a-text>
+                </a-plane>
+                <a-curvedimage id="tutor_nav" src="#tutor_navigasi" theta-length="90" theta-start="135" radius="0.707"
+                    height="0,3719342" position="-28 7.75 84" scale="20 20 20">
+                </a-curvedimage>
+
+                <a-image spot="linkto:#point1;spotgroup:group-point1" position="27.887 10.000 51.5" look-at="false">
+                </a-image>
+                <a-image spot="linkto:#point1;spotgroup:group-point1" position="-27.887 10.000 51.5" look-at="false">
+                </a-image>
+
+                <a-entity id="gltffloor"></a-entity>
+                <a-entity id="entity_group"></a-entity>
+                <a-image id="step"></a-image>
+                <a-entity id="wall_audio"></a-entity>
+                <a-entity id="wall_object"></a-entity>
+                <a-entity id="wall_text"></a-entity>
+                <a-entity id="butterfly" position="0 8.8 -12">
+                    <a-box butterfly scale="1 1 0.5" geometry="width: 10; height: 5.69"
+                        material="src: #kupu1"
+                        rotation="0 0 0"
+                        animation__scale="property: scale; to: 1.05 1.05 0.5; dur: 200; startEvents: mouseenter"
+                        animation__scale_reverse="property: scale; to: 1 1 0.5; dur: 200; startEvents: mouseleave">
+                    </a-box>
+                </a-entity>
+
+                <!-- Wall frame -->
+                <a-entity id="wall_frame"></a-entity>
+
+                <!-- Wall pillar -->
+                <a-entity
+                    gltf-model="#brickwall"
+                    crossorigin="anonymous" position="-41.983 0.000 -48.060" scale="1.000 6.500 0.500" static-body
+                    rotation="0.000 -90.000 0.000">
+                </a-entity>
+                <a-entity
+                    gltf-model="#brickwall"
+                    crossorigin="anonymous" position="-40.020 0.000 -49.954" scale="1.000 6.500 0.500" static-body
+                    rotation="0.000 0.000 0.000"></a-entity>
+                <a-entity
+                    gltf-model="#brickwall"
+                    crossorigin="anonymous" position="41.983 0.000 -48.060" scale="1.000 6.500 0.500" static-body
+                    rotation="0.000 -90.000 0.000"></a-entity>
+                <a-entity
+                    gltf-model="#brickwall"
+                    crossorigin="anonymous" position="40.020 0.000 -49.954" scale="1.000 6.500 0.500" static-body
+                    rotation="0.000 180.000 0.000"></a-entity>
+                <a-entity
+                    gltf-model="#brickwall"
+                    crossorigin="anonymous" position="-40.020 0.000 50.020" scale="1.000 6.500 0.500" static-body
+                    rotation="0.000 0.000 0.000"></a-entity>
+                <a-entity
+                    gltf-model="#brickwall"
+                    crossorigin="anonymous" position="-41.983 0.000 48.149" scale="1.000 6.500 0.500" static-body
+                    rotation="0.000 90.000 0.000"></a-entity>
+                <a-entity
+                    gltf-model="#brickwall"
+                    crossorigin="anonymous" position="40.020 0.000 50.020" scale="1.000 6.500 0.500" static-body
+                    rotation="0.000 0.000 0.000"></a-entity>
+                <a-entity
+                    gltf-model="#brickwall"
+                    crossorigin="anonymous" position="41.983 0.000 48.149" scale="1.000 6.500 0.500" static-body
+                    rotation="0.000 90.000 0.000"></a-entity>
+                <a-entity
+                    gltf-model="#brickwall"
+                    crossorigin="anonymous" position="-15.831 0.000 50.020" scale="1.000 6.500 0.500" static-body
+                    rotation="0.000 180.000 0.000"></a-entity>
+                <a-entity
+                    gltf-model="#brickwall"
+                    crossorigin="anonymous" position="-13.870 0.000 48.149" scale="1.000 6.500 0.500" static-body
+                    rotation="0.000 90.000 0.000"></a-entity>
+                <a-entity
+                    gltf-model="#brickwall"
+                    crossorigin="anonymous" position="15.831 0.000 50.020" scale="1.000 6.500 0.500" static-body
+                    rotation="0.000 180.000 0.000"></a-entity>
+                <a-entity
+                    gltf-model="#brickwall"
+                    crossorigin="anonymous" position="13.870 0.000 48.149" scale="1.000 6.500 0.500" static-body
+                    rotation="0.000 90.000 0.000"></a-entity>
+                <!--  -->
+
+            </a-entity>
+            <!--  -->
+
+            <!-- QUIZ -->
+            <a-entity id="group-point4" scale="0 0 0">
+
+            </a-entity>
+            <!--  -->
+
+            <!-- CREDIT -->
+            <a-entity id="group-point5" scale="0 0 0">
+
+            </a-entity>
+            <!--  -->
+
+        </a-entity>
+        <!--  -->
+
+        <a-sky id="skybox" src="#point1"></a-sky>
+
+        <!-- VIRTUAL EXHIBITION 3D: MAP -->
+        <div id="asd">
+            <div id="myLinks" class="topnav">
+                <div class="interactive-map">
+                    <div id="bg-round">
+                        <div style="display: flex;">
+                            <div id="content" class="content--fill">
+                                <div class="block block--fill">
+                                    <a data-to="#check_07" class="menu_item">
+                                        Tujuh
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="blank">
+                                <div class="block block--blank">
+                                    <h2></h2>
+                                </div>
+                            </div>
+                            <div id="content" class="content--fill active">
+                                <div class="block block--fill">
+                                    <a style="text-align: center;" data-to="#check_01" class="menu_item">
+                                        Satu
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex;">
+                            <div id="content" class="content--fill">
+                                <div class="block block--fill">
+                                    <a data-to="#check_06" class="menu_item">
+                                        Enam
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="blank">
+                                <div class="block block--blank">
+                                    <h2></h2>
+                                </div>
+                            </div>
+                            <div id="content" class="content--fill">
+                                <div class="block block--fill">
+                                    <a data-to="#check_02" class="menu_item">
+                                        Dua
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex;">
+                            <div id="content" class="content--fill">
+                                <div class="block block--fill">
+                                    <a data-to="#check_05" class="menu_item">
+                                        Lima
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="content" class="content--fill">
+                                <div class="block block--fill">
+                                    <a data-to="#check_04" class="menu_item">
+                                        Empat
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="content" class="content--fill">
+                                <div class="block block--fill">
+                                    <a data-to="#check_03" class="menu_item">
+                                        Tiga
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px;">
+                        <p style="text-align: center; font-weight: 600;">Galeri kupu-kupu</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="menu" class="containerr"
+                style="background-color: #FFFFFF; color:black; border-radius: 999px; padding: 8px;">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    style="margin: 2px 2px">
+                    <g clip-path="url(#clip0)">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M24.7141 0.176286C24.8035 0.249623 24.8756 0.341909 24.925 0.446481C24.9745 0.551053 25.0001 0.6653 25 0.780974V22.656C24.9999 22.8365 24.9373 23.0114 24.8227 23.151C24.7082 23.2906 24.5489 23.3862 24.3719 23.4216L16.5594 24.9841C16.4583 25.0042 16.3542 25.0042 16.2531 24.9841L8.59375 23.4528L0.934375 24.9841C0.821076 25.0067 0.704165 25.004 0.592063 24.976C0.479962 24.948 0.375462 24.8955 0.286093 24.8223C0.196723 24.7491 0.124708 24.6569 0.0752371 24.5525C0.0257659 24.4481 6.97699e-05 24.334 0 24.2185L0 2.34347C0.000109034 2.16293 0.0627439 1.988 0.177255 1.84842C0.291767 1.70884 0.451086 1.61323 0.628125 1.57785L8.44062 0.0153486C8.54171 -0.00485567 8.64579 -0.00485567 8.74688 0.0153486L16.4062 1.5466L24.0656 0.0153486C24.1789 -0.00743918 24.2958 -0.00482432 24.4079 0.0230048C24.52 0.050834 24.6246 0.103185 24.7141 0.176286V0.176286ZM15.625 2.9841L9.375 1.7341V22.0153L15.625 23.2653V2.9841ZM17.1875 23.2653L23.4375 22.0153V1.7341L17.1875 2.9841V23.2653ZM7.8125 22.0153V1.7341L1.5625 2.9841V23.2653L7.8125 22.0153Z"
+                            fill="black" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0">
+                            <rect width="25" height="25" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+
+        </div>
+        <!--  -->
+
+        <!-- VIRTUAL TOUR 360: MAP -->
+        <div id="map" style="background-color: #FFFFFF; color:black; border-radius: 999px; padding: 8px;">
+            <!-- <img src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/map360.png"
+                crossorigin="anonymous" class="icon"> -->
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="margin: 2px 2px">
+                <g clip-path="url(#clip0)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M24.7141 0.176286C24.8035 0.249623 24.8756 0.341909 24.925 0.446481C24.9745 0.551053 25.0001 0.6653 25 0.780974V22.656C24.9999 22.8365 24.9373 23.0114 24.8227 23.151C24.7082 23.2906 24.5489 23.3862 24.3719 23.4216L16.5594 24.9841C16.4583 25.0042 16.3542 25.0042 16.2531 24.9841L8.59375 23.4528L0.934375 24.9841C0.821076 25.0067 0.704165 25.004 0.592063 24.976C0.479962 24.948 0.375462 24.8955 0.286093 24.8223C0.196723 24.7491 0.124708 24.6569 0.0752371 24.5525C0.0257659 24.4481 6.97699e-05 24.334 0 24.2185L0 2.34347C0.000109034 2.16293 0.0627439 1.988 0.177255 1.84842C0.291767 1.70884 0.451086 1.61323 0.628125 1.57785L8.44062 0.0153486C8.54171 -0.00485567 8.64579 -0.00485567 8.74688 0.0153486L16.4062 1.5466L24.0656 0.0153486C24.1789 -0.00743918 24.2958 -0.00482432 24.4079 0.0230048C24.52 0.050834 24.6246 0.103185 24.7141 0.176286V0.176286ZM15.625 2.9841L9.375 1.7341V22.0153L15.625 23.2653V2.9841ZM17.1875 23.2653L23.4375 22.0153V1.7341L17.1875 2.9841V23.2653ZM7.8125 22.0153V1.7341L1.5625 2.9841V23.2653L7.8125 22.0153Z"
+                        fill="black" />
+                </g>
+                <defs>
+                    <clipPath id="clip0">
+                        <rect width="25" height="25" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+
+
+        </div>
+        <div id="mapopens" class="mapopen" style="display: none;">
+            <div data-to="#map_2" class="mapitem notonscene">Satu</div>
+            <div data-to="#map_2_1" class="mapitem notonscene">Dua</div>
+            <div data-to="#map_2_2" class="mapitem notonscene">Tiga</div>
+            <div data-to="#map_2_3" class="mapitem notonscene">Empat</div>
+        </div>
+        <!--  -->
+
+        <!-- HOMEPAGE MENU -->
+        <div id="tes">
+            <div id="welcome" class="dont-block-me">
+                <h1>Selamat Datang</h1>
+                <div id="zxc" class="zxc">
+                    <div data-to="#map_3" class="menu_item3">Virtual Exhibiton<br> Museum Kupu-kupu</div>
+                    <div data-to="#map_2" class="menu_item3">Virtual Tour Alian</div>
+                    <div data-to="#map_4" class="menu_item3">Quiz</div>
+                    <div data-to="#map_5" class="menu_item3">Credit</div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+
+        <!-- QUIZ -->
+        <div id="quiz">
+            <section style="background-color: #F5F7Fb;">
+                <main>
+                    <!-- creating a modal for when quiz ends -->
+                    <div class="modal-container" id="score-modal">
+                        <div class="modal-content-container">
+                            <div>
+                                <h1 style="margin-bottom: 10px;">Selamat, quiz telah selesai.</h1>
+                                <p style="text-align: center;">Berikut hasil pengerjaannya:</p>
+                            </div>
+                            <div style="display: flex; align-items: center; justify-content: space-between;">
+                                <div class="grade-details">
+                                    <p>Jawaban Benar : <span id="right-answers"></span></p>
+                                    <p>Jawaban Salah : <span id="wrong-answers"></span></p>
+                                </div>
+                                <div>
+                                    <p>Nilai : <span id="grade-percentage"
+                                            style="font-size: 28px; font-weight: 800;"></span>%</p>
+                                </div>
+                            </div>
+                            <p>Anda terkatogorikan: <span id="remarks" style="font-weight: 800;"></span></p>
+                            <p style="text-align: center; font-size: 14px; padding-left:24px; padding-right: 24px;">
+                                <span id="remarks-note"></span></p>
+                            <div class="modal-button-container">
+                                <button class="btn-coba-lagi" onclick="closeScoreModal()">Coba Lagi</button>
+                                <button data-to="#map_1" class="menu_item3 btn-menu-awal">Menu Awal</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="game-quiz-container">
+                        <div class="game-details-container">
+                            <h1 class="nilai-screen">Nilai : <span id="player-score"></span> /
+                                10</h1>
+                            <h1 class="pertanyaan-screen"> Pertanyaan : <span id="question-number"></span> / 10</h1>
+                            <div data-to="#map_1" class="menu_item3  btn-back">
+                                Kembali
+                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.5936 5.20833C10.7492 5.2078 10.903 5.24215 11.0436 5.30884C11.1842 5.37554 11.3081 5.47289 11.4061 5.59375L16.4373 11.8437C16.5906 12.0301 16.6743 12.2639 16.6743 12.5052C16.6743 12.7465 16.5906 12.9803 16.4373 13.1667L11.229 19.4167C11.0522 19.6294 10.7981 19.7632 10.5227 19.7886C10.2472 19.814 9.97299 19.7289 9.76027 19.5521C9.54754 19.3753 9.41376 19.1212 9.38837 18.8458C9.36297 18.5703 9.44804 18.2961 9.62485 18.0833L14.2811 12.5L9.7811 6.91666C9.65372 6.76376 9.57281 6.57757 9.54793 6.38013C9.52306 6.18268 9.55526 5.98224 9.64074 5.80252C9.72621 5.62281 9.86138 5.47134 10.0302 5.36603C10.1991 5.26073 10.3946 5.20601 10.5936 5.20833Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="game-question-container">
+                            <h1 id="display-question"></h1>
+                        </div>
+                        <div class="game-options-container">
+                            <div class="modal-container" id="option-modal">
+                                <div class="modal-content-container">
+                                    <h1>Silahkan pilih jawaban</h1>
+                                    <div class="modal-button-container">
+                                        <button onclick="closeOptionModal()">Kembali</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <span>
+                                <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                                <div class="option">
+                                    <label for="option-one" id="option-one-label"></label>
+                                </div>
+                            </span>
+                            <span>
+                                <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                                <div class="option">
+                                    <label for="option-two" id="option-two-label"></label>
+                                </div>
+                            </span>
+                            <span>
+                                <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                                <div class="option">
+                                    <label for="option-three" id="option-three-label"></label>
+                                </div>
+                            </span>
+                            <span>
+                                <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                                <div class="option">
+                                    <label for="option-four" id="option-four-label"></label>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="next-button-container">
+                            <button onclick="handleNextQuestion()">Selanjutnya</button>
+                        </div>
+                    </div>
+                </main>
+            </section>
+        </div>
+        <!--  -->
+
+        <!-- CREDIT -->
+        <div id="credit">
+            <div class="credit-card">
+                <div data-to="#map_1" class="menu_item3 btn-back lg-display" style="font-weight: 600; ">
+                    Kembali
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.5936 5.20833C10.7492 5.2078 10.903 5.24215 11.0436 5.30884C11.1842 5.37554 11.3081 5.47289 11.4061 5.59375L16.4373 11.8437C16.5906 12.0301 16.6743 12.2639 16.6743 12.5052C16.6743 12.7465 16.5906 12.9803 16.4373 13.1667L11.229 19.4167C11.0522 19.6294 10.7981 19.7632 10.5227 19.7886C10.2472 19.814 9.97299 19.7289 9.76027 19.5521C9.54754 19.3753 9.41376 19.1212 9.38837 18.8458C9.36297 18.5703 9.44804 18.2961 9.62485 18.0833L14.2811 12.5L9.7811 6.91666C9.65372 6.76376 9.57281 6.57757 9.54793 6.38013C9.52306 6.18268 9.55526 5.98224 9.64074 5.80252C9.72621 5.62281 9.86138 5.47134 10.0302 5.36603C10.1991 5.26073 10.3946 5.20601 10.5936 5.20833Z"
+                            fill="white" />
+                    </svg>
+                </div>
+                <div class="credit-intro">
+                    <h1>CREDITS</h1>
+                    <p>Tur Virtual Alian Butterfly Park adalah hasil kerjasama dari Departemen Teknik Elektro dan
+                        Teknologi Informasi (DTETI) UGM dengan Alian Butterfly Park</p>
+                </div>
+                <div class="credit-intro">
+                    <h1>Dibuat oleh:</h1>
+                    <p>Azka Dzaki Arrazzaq</p>
+                    <p>Nafian Hanandyawan</p>
+                    <p>Pio Tirta Gesang Sucahya</p>
+                </div>
+                <div class="credit-intro">
+                    <h1>Sumber gambar:</h1>
+                    <p>gettyimages.com</p>
+                    <p>freepik.com</p>
+                    <p>deschuteslandtrust.org</p>
+                    <p>learnaboutbutterflies.com</p>
+                </div>
+                <div class="credit-intro">
+                    <h1>Sumber konten:</h1>
+                    <p>kumparan.com</p>
+                    <p>99.co</p>
+                    <p>hewanpedia.com</p>
+                    <p>royalsocietypublishing.org</p>
+                    <p>cdn.sci-news.com</p>
+                    <p>suburbanexterminating.com</p>
+                </div>
+                <div class="credit-intro">
+                    <h1>Dibuat dengan:</h1>
+                    <p>A-FRAME</p>
+                </div>
+                <div data-to="#map_1" class="menu_item3 btn-back sm-display" style="font-weight: 600; ">
+                    Kembali
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.5936 5.20833C10.7492 5.2078 10.903 5.24215 11.0436 5.30884C11.1842 5.37554 11.3081 5.47289 11.4061 5.59375L16.4373 11.8437C16.5906 12.0301 16.6743 12.2639 16.6743 12.5052C16.6743 12.7465 16.5906 12.9803 16.4373 13.1667L11.229 19.4167C11.0522 19.6294 10.7981 19.7632 10.5227 19.7886C10.2472 19.814 9.97299 19.7289 9.76027 19.5521C9.54754 19.3753 9.41376 19.1212 9.38837 18.8458C9.36297 18.5703 9.44804 18.2961 9.62485 18.0833L14.2811 12.5L9.7811 6.91666C9.65372 6.76376 9.57281 6.57757 9.54793 6.38013C9.52306 6.18268 9.55526 5.98224 9.64074 5.80252C9.72621 5.62281 9.86138 5.47134 10.0302 5.36603C10.1991 5.26073 10.3946 5.20601 10.5936 5.20833Z"
+                            fill="white" />
+                    </svg>
+                </div>
+
+            </div>
+        </div>
+        <!--  -->
+
+        <!-- OTHER FEATURES -->
+        <div id="audioicon" class="volicon">
+            <span><i id="audio1" class="fa fa-volume-up fa-2x"
+                    style="background-color: #FFFFFF; color:black;opacity:0.5; border-radius: 999px; padding: 8px;"></i></span>
+        </div>
+        <audio id="audiotest" hidden>
+            <source
+                src="https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Julie_Maxwells_Piano_Music/Classic_Piano_Collection_from_the_Princess_of_Mars/Julie_Maxwells_Piano_Music_-_21_-_Prison_Walls.mp3"
+                type="audio/mp3">
+        </audio>
+        <div id="zzz" class="fullscreenicon"
+            style="background-color: #FFFFFF; color:black; border-radius: 999px; padding: 8px; margin-bottom: 15px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-fullscreen"
+                viewBox="0 0 16 16" style="margin: 2px 2px">
+                <path
+                    d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z" />
+            </svg>
+        </div>
+        <!--  -->
+
+        <!-- INLINE JS -->
+        <script src="./js/orientation.js"></script>
+        <script src="./js/toggleaudio.js"></script>
+        <script src="./js/barclick.js"></script>
+        <script src="./js/togglefullscreen.js"></script>
+        <script src="./js/quiz.js"></script>
+        <script src="./main.js"></script>
+        <script src="./sw.js"></script>
+        <!--  -->
+
+    </a-scene>
+
+</body>
+
+</html>

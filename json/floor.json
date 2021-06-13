@@ -1,0 +1,730 @@
+{
+    "floor" : [
+        {
+            "position":"-16 0 48"
+        },
+        {
+            "position":"-24 0 48"            
+        },
+        {
+            "position":"-32 0 48"            
+        },
+        {
+            "position":"-40 0 48"            
+        },
+        {
+            "position":"-16 0 40"
+        },
+        {
+            "position":"-24 0 40"            
+        },
+        {
+            "position":"-32 0 40"            
+        },
+        {
+            "position":"-40 0 40"            
+        },
+        {
+            "position":"-16 0 32"
+        },
+        {
+            "id":"check_01",
+            "position":"-24 0 32"            
+        },
+        {
+            "position":"-32 0 32"            
+        },
+        {
+            "position":"-40 0 32"            
+        },
+        {
+            "position":"-16 0 24"
+        },
+        {
+            "position":"-24 0 24"            
+        },
+        {
+            "position":"-32 0 24"            
+        },
+        {
+            "position":"-40 0 24"            
+        },
+        {
+            "position":"-16 0 16"
+        },
+        {
+            "position":"-24 0 16"            
+        },
+        {
+            "position":"-32 0 16"            
+        },
+        {
+            "position":"-40 0 16"            
+        },
+        {
+            "position":"-16 0 8"
+        },
+        {
+            "position":"-24 0 8"            
+        },
+        {
+            "position":"-32 0 8"            
+        },
+        {
+            "position":"-40 0 8"            
+        },
+        {
+            "position":"-16 0 0"
+        },
+        {
+            "position":"-24 0 0"            
+        },
+        {
+            "position":"-32 0 0"            
+        },
+        {
+            "position":"-40 0 0"            
+        },
+        {
+            "position":"-16 0 -8"
+        },
+        {
+            "id":"check_02",
+            "position":"-24 0 -8"            
+        },
+        {
+            "position":"-32 0 -8"            
+        },
+        {
+            "position":"-40 0 -8"            
+        },
+        {
+            "position":"-16 0 -16"
+        },
+        {
+            "position":"-24 0 -16"            
+        },
+        {
+            "position":"-32 0 -16"            
+        },
+        {
+            "position":"-40 0 -16"            
+        },
+        {
+            "position":"-16 0 -24"
+        },
+        {
+            "position":"-24 0 -24"            
+        },
+        {
+            "position":"-32 0 -24"            
+        },
+        {
+            "position":"-40 0 -24"            
+        },
+        {
+            "position":"-16 0 -32"
+        },
+        {
+            "id":"check_03",
+            "position":"-24 0 -32"            
+        },
+        {
+            "position":"-32 0 -32"            
+        },
+        {
+            "position":"-40 0 -32"            
+        },
+        {
+            "position":"-16 0 -40"
+        },
+        {
+            "position":"-24 0 -40"            
+        },
+        {
+            "position":"-32 0 -40"            
+        },
+        {
+            "position":"-40 0 -40"            
+        },
+        {
+            "position":"-16 0 -48"
+        },
+        {
+            "position":"-24 0 -48"            
+        },
+        {
+            "position":"-32 0 -48"            
+        },
+        {
+            "position":"-40 0 -48"            
+        },
+        {
+            "position":"16 0 48"
+        },
+        {
+            "position":"24 0 48"            
+        },
+        {
+            "position":"32 0 48"            
+        },
+        {
+            "position":"40 0 48"            
+        },
+        {
+            "position":"16 0 40"
+        },
+        {
+            "position":"24 0 40"            
+        },
+        {
+            "position":"32 0 40"            
+        },
+        {
+            "position":"40 0 40"            
+        },
+        {
+            "position":"16 0 32"
+        },
+        {
+            "position":"24 0 32"            
+        },
+        {
+            "position":"32 0 32"            
+        },
+        {
+            "position":"40 0 32"            
+        },
+        {
+            "position":"16 0 24"
+        },
+        {
+            "position":"24 0 24"            
+        },
+        {
+            "id":"check_07",
+            "position":"32 0 24"            
+        },
+        {
+            "position":"40 0 24"            
+        },
+        {
+            "position":"16 0 16"
+        },
+        {
+            "position":"24 0 16"            
+        },
+        {
+            "position":"32 0 16"            
+        },
+        {
+            "position":"40 0 16"            
+        },
+        {
+            "position":"16 0 8"
+        },
+        {
+            "position":"24 0 8"            
+        },
+        {
+            "position":"32 0 8"            
+        },
+        {
+            "position":"40 0 8"            
+        },
+        {
+            "position":"16 0 0"
+        },
+        {
+            "position":"24 0 0"            
+        },
+        {
+            "position":"32 0 0"            
+        },
+        {
+            "position":"40 0 0"            
+        },
+        {
+            "position":"16 0 -8"
+        },
+        {
+            "position":"24 0 -8"            
+        },
+        {
+            "id":"check_06",
+            "position":"32 0 -8"            
+        },
+        {
+            "position":"40 0 -8"            
+        },
+        {
+            "position":"16 0 -16"
+        },
+        {
+            "position":"24 0 -16"            
+        },
+        {
+            "position":"32 0 -16"            
+        },
+        {
+            "position":"40 0 -16"            
+        },
+        {
+            "position":"16 0 -24"
+        },
+        {
+            "position":"24 0 -24"            
+        },
+        {
+            "position":"32 0 -24"            
+        },
+        {
+            "position":"40 0 -24"            
+        },
+        {
+            "position":"16 0 -32"
+        },
+        {
+            "position":"24 0 -32"            
+        },
+        {
+            "id":"check_05",
+            "position":"32 0 -32"            
+        },
+        {
+            "position":"40 0 -32"            
+        },
+        {
+            "position":"16 0 -40"
+        },
+        {
+            "position":"24 0 -40"            
+        },
+        {
+            "position":"32 0 -40"            
+        },
+        {
+            "position":"40 0 -40"            
+        },
+        {
+            "position":"16 0 -48"
+        },
+        {
+            "position":"24 0 -48"            
+        },
+        {
+            "position":"32 0 -48"            
+        },
+        {
+            "position":"40 0 -48"            
+        },
+        {
+            "position":"-8 0 -48"            
+        },
+        {
+            "position":"0 0 -48"            
+        },
+        {
+            "position":"8 0 -48"            
+        },
+        {
+            "position":"-8 0 -40"            
+        },
+        {
+            "position":"0 0 -40"            
+        },
+        {
+            "position":"8 0 -40"            
+        },
+        {
+            "position":"-8 0 -32"            
+        },
+        {
+            "id":"check_04",
+            "position":"0 0 -32"            
+        },
+        {
+            "position":"8 0 -32"            
+        },
+        {
+            "position":"-8 0 -24"            
+        },
+        {
+            "position":"0 0 -24"            
+        },
+        {
+            "position":"8 0 -24"            
+        },
+        {
+            "position":"-8 0 -16"            
+        },
+        {
+            "position":"0 0 -16"            
+        },
+        {
+            "position":"8 0 -16"            
+        }
+    ],
+    "atap" : [
+        {
+            "position":"-16 26 48"
+        },
+        {
+            "position":"-24 26 48"            
+        },
+        {
+            "position":"-32 26 48"            
+        },
+        {
+            "position":"-40 26 48"            
+        },
+        {
+            "position":"-16 26 40"
+        },
+        {
+            "position":"-24 26 40"            
+        },
+        {
+            "position":"-32 26 40"            
+        },
+        {
+            "position":"-40 26 40"            
+        },
+        {
+            "position":"-16 26 32"
+        },
+        {
+            "id":"check_01",
+            "position":"-24 26 32"            
+        },
+        {
+            "position":"-32 26 32"            
+        },
+        {
+            "position":"-40 26 32"            
+        },
+        {
+            "position":"-16 26 24"
+        },
+        {
+            "position":"-24 26 24"            
+        },
+        {
+            "position":"-32 26 24"            
+        },
+        {
+            "position":"-40 26 24"            
+        },
+        {
+            "position":"-16 26 16"
+        },
+        {
+            "position":"-24 26 16"            
+        },
+        {
+            "position":"-32 26 16"            
+        },
+        {
+            "position":"-40 26 16"            
+        },
+        {
+            "position":"-16 26 8"
+        },
+        {
+            "id":"check_02",
+            "position":"-24 26 8"            
+        },
+        {
+            "position":"-32 26 8"            
+        },
+        {
+            "position":"-40 26 8"            
+        },
+        {
+            "position":"-16 26 0"
+        },
+        {
+            "position":"-24 26 0"            
+        },
+        {
+            "position":"-32 26 0"            
+        },
+        {
+            "position":"-40 26 0"            
+        },
+        {
+            "position":"-16 26 -8"
+        },
+        {
+            "position":"-24 26 -8"            
+        },
+        {
+            "position":"-32 26 -8"            
+        },
+        {
+            "position":"-40 26 -8"            
+        },
+        {
+            "position":"-16 26 -16"
+        },
+        {
+            "position":"-24 26 -16"            
+        },
+        {
+            "position":"-32 26 -16"            
+        },
+        {
+            "position":"-40 26 -16"            
+        },
+        {
+            "position":"-16 26 -24"
+        },
+        {
+            "position":"-24 26 -24"            
+        },
+        {
+            "position":"-32 26 -24"            
+        },
+        {
+            "position":"-40 26 -24"            
+        },
+        {
+            "position":"-16 26 -32"
+        },
+        {
+            "position":"-24 26 -32"            
+        },
+        {
+            "position":"-32 26 -32"            
+        },
+        {
+            "position":"-40 26 -32"            
+        },
+        {
+            "position":"-16 26 -40"
+        },
+        {
+            "position":"-24 26 -40"            
+        },
+        {
+            "position":"-32 26 -40"            
+        },
+        {
+            "position":"-40 26 -40"            
+        },
+        {
+            "position":"-16 26 -48"
+        },
+        {
+            "position":"-24 26 -48"            
+        },
+        {
+            "position":"-32 26 -48"            
+        },
+        {
+            "position":"-40 26 -48"            
+        },
+        {
+            "position":"16 26 48"
+        },
+        {
+            "position":"24 26 48"            
+        },
+        {
+            "position":"32 26 48"            
+        },
+        {
+            "position":"40 26 48"            
+        },
+        {
+            "position":"16 26 40"
+        },
+        {
+            "position":"24 26 40"            
+        },
+        {
+            "position":"32 26 40"            
+        },
+        {
+            "position":"40 26 40"            
+        },
+        {
+            "position":"16 26 32"
+        },
+        {
+            "position":"24 26 32"            
+        },
+        {
+            "position":"32 26 32"            
+        },
+        {
+            "position":"40 26 32"            
+        },
+        {
+            "position":"16 26 24"
+        },
+        {
+            "position":"24 26 24"            
+        },
+        {
+            "position":"32 26 24"            
+        },
+        {
+            "position":"40 26 24"            
+        },
+        {
+            "position":"16 26 16"
+        },
+        {
+            "position":"24 26 16"            
+        },
+        {
+            "position":"32 26 16"            
+        },
+        {
+            "position":"40 26 16"            
+        },
+        {
+            "position":"16 26 8"
+        },
+        {
+            "position":"24 26 8"            
+        },
+        {
+            "position":"32 26 8"            
+        },
+        {
+            "position":"40 26 8"            
+        },
+        {
+            "position":"16 26 0"
+        },
+        {
+            "position":"24 26 0"            
+        },
+        {
+            "position":"32 26 0"            
+        },
+        {
+            "position":"40 26 0"            
+        },
+        {
+            "position":"16 26 -8"
+        },
+        {
+            "position":"24 26 -8"            
+        },
+        {
+            "position":"32 26 -8"            
+        },
+        {
+            "position":"40 26 -8"            
+        },
+        {
+            "position":"16 26 -16"
+        },
+        {
+            "position":"24 26 -16"            
+        },
+        {
+            "position":"32 26 -16"            
+        },
+        {
+            "position":"40 26 -16"            
+        },
+        {
+            "position":"16 26 -24"
+        },
+        {
+            "position":"24 26 -24"            
+        },
+        {
+            "position":"32 26 -24"            
+        },
+        {
+            "position":"40 26 -24"            
+        },
+        {
+            "position":"16 26 -32"
+        },
+        {
+            "id":"check_03",
+            "position":"24 26 -32"            
+        },
+        {
+            "position":"32 26 -32"            
+        },
+        {
+            "position":"40 26 -32"            
+        },
+        {
+            "position":"16 26 -40"
+        },
+        {
+            "position":"24 26 -40"            
+        },
+        {
+            "position":"32 26 -40"            
+        },
+        {
+            "position":"40 26 -40"            
+        },
+        {
+            "position":"16 26 -48"
+        },
+        {
+            "position":"24 26 -48"            
+        },
+        {
+            "position":"32 26 -48"            
+        },
+        {
+            "position":"40 26 -48"            
+        },
+        {
+            "position":"-8 26 -48"            
+        },
+        {
+            "position":"0 26 -48"            
+        },
+        {
+            "position":"8 26 -48"            
+        },
+        {
+            "position":"-8 26 -40"            
+        },
+        {
+            "position":"0 26 -40"            
+        },
+        {
+            "position":"8 26 -40"            
+        },
+        {
+            "position":"-8 26 -32"            
+        },
+        {
+            "position":"0 26 -32"            
+        },
+        {
+            "position":"8 26 -32"            
+        },
+        {
+            "position":"-8 26 -24"            
+        },
+        {
+            "position":"0 26 -24"            
+        },
+        {
+            "position":"8 26 -24"            
+        },
+        {
+            "position":"-8 26 -16"            
+        },
+        {
+            "position":"0 26 -16"            
+        },
+        {
+            "position":"8 26 -16"            
+        }
+    ]
+}

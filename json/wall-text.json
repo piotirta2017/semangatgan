@@ -1,0 +1,449 @@
+{
+    "wall_text": [
+        {
+            "id": "0",
+            "position": "-43.9 16.000 42.901",
+            "rotation": "0 90 0",
+            "text": "font: dejavu; value: KUPU-KUPU; width: 15.000; align: left; line-height: 0; wrap-count: 20; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "1",
+            "position": "-43.9 14.041 31.829",
+            "rotation": "0 90 0",
+            "text": "font: dejavu; value: Kupu-kupu merupakan serangga yang masuk dalam ordo Lepidoptera; width: 7.190; align: left; line-height: 45; wrap-count: 28.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "2",
+            "position": "-43.9 11.329 31.829",
+            "rotation": "0 90 0",
+            "text": "font: dejavu; value: Tubuh kupu-kupu dewasa terdiri dari 3 bagian , kepala, dada dan perut; width: 7.190; align: left; line-height: 45; wrap-count: 28.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "3",
+            "position": "-43.9 8.626 31.829",
+            "rotation": "0 90 0",
+            "text": "font: dejavu; value: Umumnya kupu-kupu aktif di waktu siang (diurnal); width: 7.190; align: left; line-height: 45; wrap-count: 28.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-43.9 16.000 20.500",
+            "rotation": "0 90 0",
+            "text": "font: dejavu; value: ALUR HIDUP KUPU-KUPU; width: 14.280; align: left; line-height: 0; wrap-count: 19.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-43.9 6.123 20.500",
+            "rotation": "0 90 0",
+            "text": "font: dejavu; value: Kupu-kupu hidup melalui siklus perubahan bentuk/fisik yang disebut metamorfosis; width: 7.430; align: left; line-height: 45; wrap-count: 28.940; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-43.9 6.000 7.900",
+            "rotation": "0 90 0",
+            "text": "font: dejavu; value: 1. TELUR; width: 11.920; align: left; line-height: 45; wrap-count: 32.530; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-43.9 6.000 -3.564",
+            "rotation": "0 90 0",
+            "text": "font: dejavu; value: 2. ULAT; width: 11.920; align: left; line-height: 45; wrap-count: 32.530; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-43.9 6.000 -15.128",
+            "rotation": "0 90 0",
+            "text": "font: dejavu; value: 3. KEPOMPONG; width: 11.920; align: left; line-height: 45; wrap-count: 32.530; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-43.9 6.000 -26.707",
+            "rotation": "0 90 0",
+            "text": "font: dejavu; value: 4. IMAGO; width: 11.920; align: left; line-height: 45; wrap-count: 32.530; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12 16.000 -3.760",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: ANATOMI KUPU-KUPU; width: 11.650; align: left; line-height: 0; wrap-count: 16.650; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 16.000 7.295",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: 1. KEPALA; width: 7.190; align: left; line-height: 45; wrap-count: 25.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 15.000 7.295",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: Kepala adalah bagian dari serangga yang berisi otak, 2 mata kompon, probosis, faring, dan 2 antena; width: 9.260; align: left; line-height: 45; wrap-count: 35.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 12.377 7.295",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: 2. ANTENA; width: 7.190; align: left; line-height: 45; wrap-count: 25.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 11.377 7.295",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: Antena digunakan untuk mencium dan keseimbangan; width: 10.030; align: left; line-height: 45; wrap-count: 38.180; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 9.341 7.295",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: 3. MATA COMPON; width: 7.190; align: left; line-height: 45; wrap-count: 25.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 8.341 7.295",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: Mata kompon kupu-kupu terdiri dari banyak lensa hexagonaldan hanya dapat melihat warna merah, hijau dan kuning saja; width: 10.030; align: left; line-height: 45; wrap-count: 38.180; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 16.000 19.000",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: 4. PROBOSIS; width: 7.190; align: left; line-height: 45; wrap-count: 25.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 15.000 19.000",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: Kupu-kupu menghisap nektar bunga menggunakan probosis yang seperti sedotan spiral; width: 9.260; align: left; line-height: 45; wrap-count: 35.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 12.377 19.000",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: 5. PALP LABIAL; width: 7.190; align: left; line-height: 45; wrap-count: 25.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 11.377 19.000",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: Palp labial membantu kupu-kupu menentukan apakah sesuatu itu merupakan makanan atau bukan; width: 9.260; align: left; line-height: 45; wrap-count: 35.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 8.766 19.000",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: 6. DADA; width: 7.190; align: left; line-height: 45; wrap-count: 25.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 7.766 19.000",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: Dada adalah bagian diantara kepala dan perut dimana kaki dan sayap terpasang; width: 9.920; align: left; line-height: 45; wrap-count: 37.760; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 5.735 19.000",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: 7. SAYAP BELAKANG; width: 7.190; align: left; line-height: 45; wrap-count: 25.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 4.735 19.000",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: Hind wing adalah sepasang sayap yang berada paling bawah; width: 9.260; align: left; line-height: 45; wrap-count: 35.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 16.000 31.000",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: 8. SAYAP DEPAN; width: 7.190; align: left; line-height: 45; wrap-count: 25.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 15.000 31.000",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: Fore wing adalah sepasang sayap yang berada paling atas; width: 9.260; align: left; line-height: 45; wrap-count: 35.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 12.974 31.000",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value:9. KAKI; width: 7.190; align: left; line-height: 45; wrap-count: 25.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 11.974 31.000",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: Kupu-kupu mempunyai sepasang kaki pendek di depan, dan 2 pasang kaki yang lebih panjang di belakangnya; width: 9.260; align: left; line-height: 45; wrap-count: 35.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 9.328 31.000",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: 10. PERUT; width: 7.190; align: left; line-height: 45; wrap-count: 25.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-12.000 8.328 31.000",
+            "rotation": "0 -90 0",
+            "text": "font: dejavu; value: Perut merupakan bagian ekor serangga yang mempunyai segmentasi yang memiliki organ vital; width: 9.260; align: left; line-height: 45; wrap-count: 35.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-35.487 16.000 -51.888",
+            "rotation": "0 0 0",
+            "text": "font: dejavu; value: SEJARAH  KUPU-KUPU; width: 13.160; align: left; line-height: 0; wrap-count: 17.600; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-35.487 6.356 -51.888",
+            "rotation": "0 0 0",
+            "text": "font: dejavu; value: Fosil yang pertama ditemukan diperkirakan terbentuk pada 40-50 juta tahun yang lalu. Evolusi dari tanaman berbunga menjadi faktor perubahan dan perkembangan evolusi kupu-kupu; width: 10.710; align: left; line-height: 45; wrap-count: 43.910; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-17.582 16.000 -51.888",
+            "rotation": "0 0 0",
+            "text": "font: dejavu; value: EVOLUSI   KUPU-KUPU; width: 13.160; align: left; line-height: 0; wrap-count: 17.600; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "-17.582 12.506 -51.888",
+            "rotation": "0 0 0",
+            "text": "font: dejavu; value: Di samping merupakan pohon evolusi dari beberapa macam spesies kupu-kupu.; width: 7.190; align: left; line-height: 45; wrap-count: 25.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "11.250 16.000 -51.888",
+            "rotation": "0 0 0",
+            "text": "font: dejavu; value: PERAN KUPU-KUPU DALAM KEHIDUPAN; width: 13.160; align: left; line-height: 0; wrap-count: 17.600; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "11.250 12.000 -51.888",
+            "rotation": "0 0 0",
+            "text": "font: dejavu; value: - PENYERBUK BUNGA; width: 7.190; align: left; line-height: 45; wrap-count: 25.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "11.250 11.000 -51.888",
+            "rotation": "0 0 0",
+            "text": "font: dejavu; value: Kupu-kupu juga merupakan penyerbuk bunga yang baik, yang dapat membantu perkembang biakan tanaman; width: 10.720; align: left; line-height: 45; wrap-count: 39.420; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "11.250 8.077 -51.888",
+            "rotation": "0 0 0",
+            "text": "font: dejavu; value: - MENJAGA KESEIMBANGAN EKOSISTEM; width: 9.000; align: left; line-height: 45; wrap-count: 33.280; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "11.250 7.077 -51.888",
+            "rotation": "0 0 0",
+            "text": "font: dejavu; value: Kupu-kupu merupakan predator bagi kutu daun, namun juga mangsa bagi banyak serangga atau hewan lain; width: 10.720; align: left; line-height: 45; wrap-count: 39.420; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "23.513 12.000 -51.888",
+            "rotation": "0 0 0",
+            "text": "font: dejavu; value: - INDIKATOR EKOSISTEM YANG SEHAT; width: 8.930; align: left; line-height: 45; wrap-count: 31.960; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "23.513 11.000 -51.888",
+            "rotation": "0 0 0",
+            "text": "font: dejavu; value: Perubahan-perubahan terhadap suatu ekosistem dapat diamati dengan berkurangnya jumlah kupu-kupu yang berada di sekitarnya; width: 10.710; align: left; line-height: 45; wrap-count: 39.420; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "5.385 16 -12.108",
+            "rotation": "0 180.000 0",
+            "text": "font: dejavu; value: KOLEKSI   KUPU-KUPU; width: 13.160; align: left; line-height: 0; wrap-count: 17.600; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },        
+        {
+            "id": "0",
+            "position": "43.800 16 -44.300",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: FUN FACT KUPU-KUPU; width: 13.160; align: left; line-height: 0; wrap-count: 17.600; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "43.800 12.000 -44.300",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: - TERDAPAT SEKITAR 1.700 SPESIES DI INDONESIA; width: 11.810; align: left; line-height: 45; wrap-count: 45.370; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },  
+        {
+            "id": "0",
+            "position": "43.800 11.000 -44.300",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: Jumlah spesies kupu-kupu di Indonesia hanya hampir mencapai 10% dari total spesies kupu-kupu di seluruh dunia; width: 10.720; align: left; line-height: 45; wrap-count: 39.400; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "43.800 8.077 -44.300",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: - SAYAP KUPU-KUPU BERSIFAT TRANSPARAN; width: 11.030; align: left; line-height: 45; wrap-count: 40.800; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },  
+        {
+            "id": "0",
+            "position": "43.800 7.077 -44.300",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: Sayap kupu-kupu sebenarnya terbuat dari bahan yang bernama kitin yang bersifat transparan; width: 10.720; align: left; line-height: 45; wrap-count: 40.700; shader: flat; color: #000000; anchor: left; baseline: top;"            
+        },
+        {
+            "id": "0",
+            "position": "43.800 12.000 -30.607",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: - TERDAPAT LEBIH DARI 18.000 SPESIES; width: 11.030; align: left; line-height: 45; wrap-count: 40.800; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },  
+        {
+            "id": "0",
+            "position": "43.800 11.000 -30.607",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: Kupu-kupu telah berevolusi menjadi banyak spesies untuk menyesuaikan dengan perubahan yang terjadi selama itu; width: 10.720; align: left; line-height: 45; wrap-count: 40.700; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "43.800 8.077 -30.607",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: - KUPU-KUPU MEMILIKI 4 SAYAP; width: 11.030; align: left; line-height: 45; wrap-count: 40.800; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },  
+        {
+            "id": "0",
+            "position": "43.800 7.077 -30.607",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: Kupu-kupu memiliki dua pasang sayap, dua di depan dan dua di belakang; width: 10.720; align: left; line-height: 45; wrap-count: 40.700; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "43.800 16 -16.062",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: CARA MERAWAT FACT KUPU-KUPU; width: 13.160; align: left; line-height: 0; wrap-count: 17.600; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "43.800 12.000 -16.062",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: - BUAT SEBUAH TAMAN BUNGA; width: 11.030; align: left; line-height: 45; wrap-count: 40.800; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },  
+        {
+            "id": "0",
+            "position": "43.800 11.000 -16.062",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: Kita dapat mebuat taman bagi kupu-kupu dengan jenis seperti Milkweed, Dill, Fennel dan Mint untuk menarik kupu kupu; width: 10.720; align: left; line-height: 45; wrap-count: 40.700; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "43.800 8.077 -16.062",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: - MELEPAS KUPU-KUPU KETIKA MULAI TERBANG; width: 11.030; align: left; line-height: 45; wrap-count: 40.800; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },  
+        {
+            "id": "0",
+            "position": "43.800 7.077 -16.062",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: Kupu-kupu mempunyai kesempatan terbaik untuk bertahan hidup di alam terbuka; width: 10.720; align: left; line-height: 45; wrap-count: 40.700; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "43.800 12.000 -1.115",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: - MEMBERI PAKAN KUPU-KUPU LARUTAN GULA; width: 11.030; align: left; line-height: 45; wrap-count: 40.800; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },  
+        {
+            "id": "0",
+            "position": "43.800 11.000 -1.115",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: Kita dapat menggunakan spons kecil yang direndam di larutan gula dengan takaran 1 gula banding 4 air; width: 10.720; align: left; line-height: 45; wrap-count: 40.700; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "43.800 16 14.152",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: ALIAN BUTTERFLY PARK; width: 13.160; align: left; line-height: 0; wrap-count: 17.600; shader: flat; color: #000000; anchor: left; baseline: top;"
+        }, 
+        {
+            "id": "0",
+            "position": "43.800 5.455 14.152",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: Alian Butterfly Park merupakan tempat wisata edukasi berbasis penangkaran kupu-kupu; width: 10.720; align: left; line-height: 45; wrap-count: 40.700; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "43.800 12.208 28.142",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: Berlokasi di desa Krakal, kecamatan Alian, kabupaten Kebumen, Jawa Tengah. Didirikan pada 1 Juli 2015; width: 10.120; align: left; line-height: 45; wrap-count: 39.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "43.800 9.650 28.142",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: Taman wisata dilengkapi dengan wahana taman kupu-kupu hidup, museum koleksi awetan kupu-kupu dan ruang audio visual; width: 10.120; align: left; line-height: 45; wrap-count: 39.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "43.800 7.129 28.142",
+            "rotation": "0 -90.000 0",
+            "text": "font: dejavu; value: Terdapat sekitar 175 jenis kupu-kupu di Kebumen; width: 10.120; align: left; line-height: 45; wrap-count: 39.000; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "12.000 16 43.222",
+            "rotation": "0 90.000 0",
+            "text": "font: dejavu; value: CARA BERTAHAN HIDUP KUPU-KUPU; width: 13.160; align: left; line-height: 0; wrap-count: 17.600; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "12.000 6.796 43.222",
+            "rotation": "0 90.000 0",
+            "text": "font: dejavu; value: - KAMUFLASE; width: 11.920; align: left; line-height: 45; wrap-count: 32.530; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "12.000 5.529 43.222",
+            "rotation": "0 90.000 0",
+            "text": "font: dejavu; value: Kupu-kupu berkamuflase dengan warna, pola, dan tekstur yang menyatu dengan alam; width: 8.980; align: left; line-height: 45; wrap-count: 34.880; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "12.000 6.796 30.556",
+            "rotation": "0 90.000 0",
+            "text": "font: dejavu; value: - MENYAMAR; width: 11.920; align: left; line-height: 45; wrap-count: 32.530; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "12.000 5.529 30.556",
+            "rotation": "0 90.000 0",
+            "text": "font: dejavu; value: Penyamaran adalah ketika kupu-kupu memiliki penampilan serupa dengan alam; width: 9.270; align: left; line-height: 45; wrap-count: 35.850; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "12.000 6.796 18.099",
+            "rotation": "0 90.000 0",
+            "text": "font: dejavu; value: - APOSEMATIC COLORATION; width: 11.920; align: left; line-height: 45; wrap-count: 32.530; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "12.000 5.529 18.099",
+            "rotation": "0 90.000 0",
+            "text": "font: dejavu; value: Warna aposematik membuat predator berfikir bahwa mereka adalah mahkluk beracun.; width: 9.270; align: left; line-height: 45; wrap-count: 35.850; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "12.000 6.796 5.548",
+            "rotation": "0 90.000 0",
+            "text": "font: dejavu; value: - HIBERNASI; width: 11.920; align: left; line-height: 45; wrap-count: 32.530; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "12.000 5.529 5.548",
+            "rotation": "0 90.000 0",
+            "text": "font: dejavu; value: Hibernasi dilakukan untuk menjaga metabolisme tetap rendah; width: 9.270; align: left; line-height: 45; wrap-count: 35.850; shader: flat; color: #000000; anchor: left; baseline: top;"
+        },
+        {
+            "id": "0",
+            "position": "32.292 16.000 51.795",
+            "rotation": "0 180.000 0",
+            "text": "font: dejavu; value: KEMBALI KE MENU UTAMA; width: 9.220; align: left; line-height: 00; wrap-count: 12.080; shader: flat; color: #000000; anchor: left; baseline: top;"
+        }
+        
+    ]
+}

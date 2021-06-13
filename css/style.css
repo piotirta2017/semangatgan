@@ -1,0 +1,548 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;}
+
+
+.card {
+  display: none;
+  z-index: 1000;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.card-inner {
+  background-color: #fff;
+  width: 80vw;
+  height: 60vh;
+  margin: auto;
+}
+
+#hotspot {
+  background-color: red;
+}
+
+.containerr {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+}
+
+div.containerr {
+  bottom: 205px;
+  right: 2em;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 5px;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.volicon {
+  position: absolute;
+  cursor: pointer;  
+}
+
+div.volicon {
+  bottom: 5em;
+  right: 2em;
+}
+
+div.fullscreenicon {
+  bottom: 8em;
+  right: 2em;
+}
+
+.fullscreenicon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  cursor: pointer;
+}
+
+#asd {
+  display: none;
+}
+
+#zzz {
+  display: none;
+}
+
+@media(max-width:768px){
+  
+#zzz {
+  display: none !important;
+}
+
+}
+
+#audioicon {
+  display: none;
+}
+
+#quiz{
+  display: none;
+}
+
+#quiz{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-weight: 400;
+  overflow: auto;
+}
+
+#quiz > section{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Interactive Map 3D */
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  /* position: relative; */
+  display: none;
+}
+
+.interactive-map {
+  position: absolute;
+  right: 6em;
+    bottom: 106px;
+}
+.interactive-map #bg-round {
+    background-color: #127E00;
+    opacity: 90%;
+    padding: 35px;
+    border-radius: 999px;
+    border: 2px solid #EFEFEF;
+}
+
+.interactive-map .block {
+    height: 100%;
+    width: 100%;
+}
+
+.interactive-map .content--fill {
+  cursor: pointer;
+    background-color: #CCCCCC;
+}
+
+.interactive-map .content--fill.active {
+    background-color: #4BB6CD;
+}
+
+.interactive-map .block--blank {
+    background-color: transparent;
+}
+
+.interactive-map #content,
+.interactive-map #blank {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.interactive-map #content a {
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+}
+
+.interactive-map #content img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.interactive-map #content:before,
+.interactive-map #content:after,
+.interactive-map #content>:last-child:before,
+.interactive-map #content>:last-child:after {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    content: ' ';
+}
+
+.interactive-map #content:before {
+    top: 3px;
+    left: 3px;
+    border-width: 1px 0 0 1px
+}
+
+.interactive-map #content:after {
+    top: 3px;
+    right: 3px;
+    border-width: 1px 1px 0 0
+}
+
+.interactive-map #content>:last-child:before {
+    bottom: 3px;
+    right: 3px;
+    border-width: 0 1px 1px 0
+}
+
+.interactive-map #content>:last-child:after {
+    bottom: 3px;
+    left: 3px;
+    border-width: 0 0 1px 1px
+}
+
+/* Homepage */
+#tes {
+  position: absolute;
+  width: 100%;
+  height: 100%;  
+  background: url("https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/bg_menu.png"), rgba(255, 255, 255, 0.8);
+  background-size: 100%;
+  overflow: auto;
+}
+    
+.zxc > div {
+    cursor: pointer;
+    margin: 20px 15px;
+    text-align: right;
+    color: white;
+    font-weight: 600;
+    font-size: 40px; 
+    transition: all 0.2s linear;
+}
+
+.zxc > div:hover {
+  color: #3BD870;
+}
+
+#welcome {
+    position: absolute;      
+    right: 5%;
+    top: 8%;         
+}
+
+#welcome h1{
+  font-weight: 700;
+  font-size: 64px;
+  margin-bottom: 40px;  
+  color: white;
+}
+
+  
+  @media (max-width: 992px){
+    .zxc > div {     
+      font-weight: 600;
+      font-size: 18px; 
+    }
+  
+    #welcome h1{
+      font-size: 32px;
+      margin-bottom: 30px;  
+    }
+  
+  }
+/*  */
+
+/* CREDIT */
+#credit{
+  display: none;
+}
+
+#credit {
+  position: absolute;
+  width: 100%;
+  height: 100%;  
+  background: url("https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/bg_credit.png"), rgba(255, 255, 255, 0.8);
+  background-size: 100%;
+  overflow: auto;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#credit .credit-card{
+  margin-top: 40px;
+  position: relative;
+}
+
+
+#credit .credit-card .credit-intro{
+  margin-bottom: 40px;
+}
+
+#credit .credit-card .credit-intro h1{
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 20px;  
+}
+
+#credit .credit-card .credit-intro p{
+  font-weight: 400;
+  font-size: 16px; 
+  line-height: 1.5;
+}
+
+
+.btn-back{
+  font-weight: 700; cursor: pointer; font-size: 16px; background-color: #3BD870; display: flex; align-items: center; color: #FFF; padding: 12px 28px; border-radius: 8px;
+}
+
+@media (min-width:768px){
+#credit .credit-card{
+  max-width: 665px;
+  margin: 50px auto;
+  padding: 12px;
+}
+
+#credit .btn-back{
+  margin-bottom: 50px; position: absolute; right: -260px;
+}
+
+#credit .sm-display{
+  display: none;
+}
+
+}
+
+@media(max-width:768px){
+  
+  #credit .btn-back{
+  position: relative;
+  justify-content: center;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  #credit .credit-card{
+    margin: 50px auto;
+    padding: 12px 30px 12px 30px;
+  }
+  
+#credit .lg-display{
+  display: none;
+}
+
+#credit .sm-display{
+  display: flex;
+}
+  }
+/*  */
+  
+  #map {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  position: absolute;
+  right: 2em;
+  bottom: 205px;
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  /* box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25); */
+  }
+/* 
+  #map img {
+    display: inherit;
+  } */
+  
+  .icon {
+    margin-left: 10%; margin-right: 10%; margin-top: 10%; margin-bottom: 10%;
+  }
+  
+  .mapopen {
+  flex-wrap: wrap;
+  position: absolute;
+  width: 280px;
+  height: 170px;
+  right: 6em;
+  bottom: 5em;
+  background:#FFFFFF;
+  border-radius: 8px;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  color: #000000;
+  
+  }
+  
+  .mapopen > div {
+    width: 40%;
+    margin: 5%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 56px;
+  }
+
+  .onscene{
+    background-color: #4BB6CD;
+    color: #FFF;
+  }
+  
+  .notonscene {
+    background-color: #CCCCCC;
+  }
+  
+  .mapclose {
+    display: none;
+  }
+
+  #block_potrait {
+    display: none;
+  }
+
+  #block_potrait #title{
+    text-align: center;
+    color: #313131;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  @media (max-width:992px) {
+    #block_potrait {
+      display: block;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: #F5F7Fb;
+      z-index: 10;
+    }
+
+    #block_potrait #block_content, #block_potrait #load{
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #block_potrait:fullscreen {
+      display: none;
+    }
+
+    #block_potrait:-webkit-full-screen {
+      display: none;
+    }
+
+    #block_potrait #orientation-status {
+      text-align: center;
+      margin: 30px 0;
+      color: #313131;
+    }
+
+    #block_potrait button {
+      background-color: #3BD870;
+      border: none;
+      color: #FFFFFF;
+      padding: 14px 28px;
+      width: 300px;
+      font-size: 16px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: 700;
+      outline: none;
+      border-radius: 8px;
+    }
+
+    #block_potrait #unlock-button {
+      display: none;
+    }
+  }
+
+  #splash {
+    position: absolute;
+    background-color:#F5F7Fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  
+    width: 100%;
+    height: 100%;
+  
+    margin: auto;
+    z-index: 20;
+    background-color: #74A86F;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loading {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 0.25rem solid rgba(49, 49, 49, 0.2);
+    border-top-color: rgb(49, 49, 49);
+    animation: spin 1s infinite linear;
+  }
+  
+  .a-enter-vr {
+    display: none;
+  }
+  .a-enter-ar {
+    display: none;
+  }
+
+  .dont-block-me {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

@@ -1,0 +1,106 @@
+{
+    "mixin": [
+        {
+            "id":"posf1",
+            "position":"0 0 40"
+        },
+        {
+            "id":"posf2",
+            "position":"0 0 15"
+        },
+        {
+            "id":"posf3",
+            "position":"35 0 -15"
+        },
+        {
+            "id":"posf4",
+            "position":"0 0 -45"
+        },
+        {
+            "id":"posf5",
+            "position":"-35 0 -15"
+        },
+        {
+            "id":"posw1",
+            "position":"-11.9 12.5 20"
+        },
+        {
+            "id":"posw2",
+            "position":"11.9 12.5 20"
+        },
+        {
+            "id":"posw4",
+            "position":"44 12.5 0"
+        },
+        {
+            "id":"posw5",
+            "position":"0 12.5 -52"
+        },
+        {
+            "id":"posw6",
+            "position":"-44 12.5 0"
+        },
+        {
+            "id":"posw10",
+            "position":"0 12.5 -12"
+        }
+    ],
+    "entity": [
+        {
+            "id": "w1",
+            "mixin": "w rotx",
+            "geometry": "height: 64",
+            "position":"-11.9 12.5 20",
+            "class": "moveTarget"
+        },
+        {
+            "id": "w2",
+            "mixin": "w rotx",
+            "geometry": "height: 64",
+            "position":"11.9 12.5 20",
+            "class": "moveTarget"
+        },
+        {
+            "id": "W3",
+            "mixin": "w rotx",
+            "geometry": "height: 104",
+            "position":"44 12.5 0",
+            "class": "moveTarget"
+        },
+        {
+            "id": "W4",
+            "mixin": "w rotxy",
+            "geometry": "height: 88",
+            "position":"0 12.5 -52",
+            "class": "moveTarget"
+        },
+        {
+            "id": "W5",
+            "mixin": "w rotx",
+            "geometry": "height: 104",
+            "position":"-44 12.5 0",
+            "class": "moveTarget"
+        },
+        {
+            "id": "W6",
+            "mixin": "w rotxy",
+            "geometry": "height: 24",
+            "position":"0 12.5 -12",
+            "class": "moveTarget"
+        },
+        {
+            "id": "W7",
+            "mixin": "w rotxy",
+            "geometry": "height: 32",
+            "position":"-27.981 12.5 51.981",
+            "class": "moveTarget"
+        },
+        {
+            "id": "W8",
+            "mixin": "w rotxy",
+            "geometry": "height: 32",
+            "position":"27.981 12.5 51.981",
+            "class": "moveTarget"
+        }
+    ]
+}
