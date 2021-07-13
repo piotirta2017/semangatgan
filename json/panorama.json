@@ -3,16 +3,15 @@
         {
             "id": "1",
             "photoId": "point2",
-            "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/360_1.jpg",
+            "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/panorama/360_1.jpg",
             "photoClass": "map360 map360-on",
             "envId": "group-point2",
-            "envScale": "0 0 0",
             "envClass": "spotclass",
             "photoLink":[
                 {
                     "id": "map_1",
                     "spot": "linkto:#point1;spotgroup:group-point1",
-                    "position": "-75 0 50"
+                    "position": "-81.629 0 50"
                 },                
                 {
                     "id": "map_2_1",
@@ -22,25 +21,16 @@
                 {
                     "id": "map_2_2",
                     "spot": "linkto:#point2_2;spotgroup:group-point2_2",
-                    "position": "45 0 50"
+                    "position": "35.291 0 50"
                 }
             ],
             "photoInfo":[
                 {
                     "id": "info1",
-                    "position": "-40 8 64.395",
-                    "rotation": "",
-                    "textId": "1",
-                    "textRotation":"0 180 0",
-                    "text": "value: KUPU-KUPU RAJA1112; width: 7; align: center; line-height: 50; wrap-count: 20; shader: msdf; color: #000000; anchor: center; baseline: top;"
-                },
-                {
-                    "id": "info2",
-                    "position": "-20 8 36",
-                    "rotation": "",
+                    "position": "-44.712 8 29.384",
                     "textId": "2",
-                    "textRotation":"0 180 0",
-                    "text": "value: asdasdasdasdasd; width: 7; align: center; line-height: 50; wrap-count: 20; shader: msdf; color: #000000; anchor: center; baseline: top;"
+                    "geometry":"height:7; width:10;",
+                    "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/bg-kupukupu.png"
                 }
             ]
 
@@ -48,10 +38,9 @@
         {
             "id": "1",
             "photoId": "point2_1",
-            "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/360_2.jpg",
+            "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/panorama/360_2.jpg",
             "photoClass": "map360",
             "envId": "group-point2_1",
-            "envScale": "0 0 0",
             "envClass": "spotclass",
             "photoLink":[
                 {
@@ -67,12 +56,11 @@
             ],
             "photoInfo":[
                 {
-                    "id": "info3",
-                    "position": "-40 8 36",
-                    "rotation": "",
-                    "textId": "3",
-                    "textRotation":"0 180 0",
-                    "text": "value: KUPU-KUPU RAJA1112; width: 7; align: center; line-height: 50; wrap-count: 20; shader: msdf; color: #000000; anchor: center; baseline: top;"
+                    "id": "info2",
+                    "position": "-44.712 8 29.384",
+                    "textId": "2",
+                    "geometry":"height:7; width:10;",
+                    "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/bg-kupukupu.png"
                 }
             ]
 
@@ -80,10 +68,9 @@
         {
             "id": "1",
             "photoId": "point2_2",
-            "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/360_4.jpg",
+            "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/panorama/360_4.jpg",
             "photoClass": "map360",
             "envId": "group-point2_2",
-            "envScale": "0 0 0",
             "envClass": "spotclass",
             "photoLink":[
                 {
@@ -99,12 +86,11 @@
             ],
             "photoInfo":[
                 {
-                    "id": "info4",
-                    "position": "-40 8 36",
-                    "rotation": "",
-                    "textId": "4",
-                    "textRotation":"0 180 0",
-                    "text": "value: KUPU-KUPU RAJA1112; width: 7; align: center; line-height: 50; wrap-count: 20; shader: msdf; color: #000000; anchor: center; baseline: top;"
+                    "id": "info3",
+                    "position": "-44.712 8 29.384",
+                    "textId": "2",
+                    "geometry":"height:7; width:10;",
+                    "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/bg-kupukupu.png"
                 }
             ]
 

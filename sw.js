@@ -3,15 +3,7 @@ var urlsToCache = [
   '/',
   '/index.html',  
   './css/style.css',
-  './css/quiz.css',
-  '/js/index.js',
-  '/js/barclick.js',
-  '/js/butterfly-collection.js',
-  '/js/camera-rig.js',
-  '/js/orientation.js',
-  '/js/quiz.js',
-  '/js/toggleaudio.js',
-  '/js/zoom.js'
+  './css/quiz.css'
 ];
 
 self.addEventListener('install', function(event) {

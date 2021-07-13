@@ -2,7 +2,7 @@ var menu = document.getElementById("menu");
 var vrcam = document.querySelector("#vrcam");
 var vrcur = document.querySelector("#vrcur");
 var zoomcam = document.querySelector("#zoomcam");
-id_skybox = document.getElementById('skybox').getAttribute('src');
+var id_skybox = document.getElementById('skybox').getAttribute('src');
 menu.addEventListener("click", function() {
   menu.classList.toggle("change");
   var x = document.getElementById("myLinks");
@@ -107,22 +107,27 @@ document.getElementById('btn_mulaiTour').addEventListener('click', function() {
   document.getElementById('camrig').setAttribute('position','-28 8 48');
 })
 
+AFRAME.registerComponent('vrcurr',{
+  schema: {
 
+  },
+  update: function (){
+    var el = this.el;
 document.querySelector('a-scene').addEventListener('enter-vr', function () {
-  let vrcur = document.createElement('a-entity');
-  setAttributes(vrcur, {"id":"vrcur", "cursor":"fuse:true; fuseTimeout:1000",
-                "geometry":"primitive:ring; radiusInner:0.01; radiusOuter:0.02",
-                "position":"0 0 -1.4",
-                "material":"shader:flat; color:#84ff68",
-                "animation__mouseenter":"property:scale; from:1 1 1; to:2 2 2; startEvents:mouseenter; pauseEvents:mouseleave; dir:reverse; dur:1000; loop:1"
-  })
-  zoomcam.appendChild(vrcur);
+  el.setAttribute("cursor", "fuse:true");
+  el.setAttribute("visible", "true");
+
+  console.log(el);
   if (id_skybox === "#point3") {
     document.getElementById('camrig').setAttribute('position','-28 8 80');
     document.getElementById('tutor_nav').setAttribute('visible', true);
   }
 });
 document.querySelector('a-scene').addEventListener('exit-vr', function () {
-  zoomcam.innerHTML="";
+  el.setAttribute("cursor", "fuse:false");
+  el.removeAttribute("cursor");
+  el.setAttribute("visible", "false");
   document.getElementById('tutor_nav').setAttribute('visible', false);
+});
+  }
 });

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -65,13 +65,14 @@
 
 <body onload="NextQuestion(0)">
     <div id="splash">
-        <img src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/icons-192%20(1).png"
-            width="70" height="70" style="margin-left:auto; margin-right:auto; display:block; margin-bottom: 10px;"
-            alt="">
+        <img alt=""
+            src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/icons-192%20(1).png"
+            width="70" height="70" style="margin-left:auto; margin-right:auto; display:block; margin-bottom: 10px;">
         <p style="margin-bottom: 20px; font-weight: 800; color: #313131; font-size: 30px;">Alian Butterfly Park</p>
         <!-- <div class="loading"></div> -->
         <div style="position: absolute; height: 196px; top:79%; right: 2em;">
-            <img src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/animatedButterfly.gif"
+            <img alt=""
+                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/animatedButterfly.gif"
                 style="height: 75%;">
         </div>
         <div style="height: 59px; right:inherit;bottom: inherit; position: absolute;
@@ -88,9 +89,9 @@
     <!-- SCREEN ORIENTATION -->
     <div id="block_potrait">
         <div id="block_content">
-            <img src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/icons-192%20(1).png"
-                width="70" height="70" style="margin-left:auto; margin-right:auto; display:block; margin-bottom: 20px;"
-                alt="">
+            <img alt=""
+                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/icons-192%20(1).png"
+                width="70" height="70" style="margin-left:auto; margin-right:auto; display:block; margin-bottom: 20px;">
             <p id="title">Virtual Tour: Alian Butterfly Park</p>
             <div id="buttons-container">
                 <button id="lock-landscape-button">Mulai Virtual Tour</button>
@@ -102,54 +103,67 @@
     <a-scene physics="gravity: 0">
 
         <!-- INLINE JS -->
-        <script src="./js/indexs.js"></script>
+        <script src="./js/index.js"></script>
         <script src="./js/zoom.js"></script>
         <!--  -->
 
         <a-assets>
             <!-- SKY -->
-            <img id="point1" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/sky1.jpg"
+            <img alt="" id="point1"
+                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/sky1.jpg"
                 crossorigin="anonymous" geometry="radius: 100" preload>
-            <img id="point3" src="https://cdn.glitch.com/3f991247-3927-4b05-983d-fd63391fccbf%2Fspace.jpg?1557199832205"
+            <img alt="" id="point3"
+                src="https://cdn.glitch.com/3f991247-3927-4b05-983d-fd63391fccbf%2Fspace.jpg?1557199832205"
                 crossorigin="anonymous" geometry="radius: 100" preload>
-            <img id="point4" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/sky1.jpg"
+            <img alt="" id="point4"
+                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/sky1.jpg"
                 crossorigin="anonymous" geometry="radius: 100" preload>
-            <img id="point5" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/sky1.jpg"
+            <img alt="" id="point5"
+                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/sky1.jpg"
                 crossorigin="anonymous" geometry="radius: 100" preload>
 
             <!-- VT 360 SKY -->
             <a-entity id="panorama_group" preload>
             </a-entity>
+            <a-entity id="informasi_group" preload>
+            </a-entity>
             <!--  -->
 
             <!-- IMAGE -->
-            <img id="alian" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/alian4.jpg"
+            <img alt="" id="alian"
+                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/alian4.jpg"
                 crossorigin="anonymous">
-            <img id="hotspotx"
+            <img alt="" id="hotspotx"
                 src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/hotspot.png"
                 crossorigin="anonymous">
-            <img id="footstep"
+            <img alt="" id="footstep"
                 src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/footsteps.png"
                 crossorigin="anonymous" preload>
-            <img id="tutor_navigasi" src="./Tutorial_Navigasi_VR.png">
-            <img id="LogoAlian" src="./LogoALian.jpeg">
-            <img id="kupu1" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/koleksikupukupu.png" crossorigin="">
-            <img id="bg-kupuku" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/bg-kupukupu.png" crossorigin="">
-            
+            <img alt="" id="tutor_navigasi" src="./img/Tutorial_Navigasi_VR2.png">
+            <img alt="" id="LogoAlian" src="./img/LogoALian.jpeg">
+            <img alt="" id="kupu1"
+                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/koleksikupukupu.png"
+                crossorigin="">
+            <img alt="" id="bg-kupuku"
+                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/bg-kupukupu.png"
+                crossorigin="">
+
             <!-- GLTF -->
-            <a-asset-item id="brickwall" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/gltf/BlackBrickWall%20(1).gltf" crossorigin></a-asset-item>
+            <a-asset-item id="brickwall"
+                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/gltf/BlackBrickWall%20(1).gltf"
+                crossorigin></a-asset-item>
 
             <!-- wall frame -->
-            <a-asset-item id="objWF" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/gltf/wall_frame/wall_frame.obj" crossorigin></a-asset-item>
-            <a-asset-item id="mtlWF" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/gltf/wall_frame/wall_frame.mtl" crossorigin></a-asset-item>
+            <a-asset-item id="objWF"
+                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/gltf/wall_frame/wall_frame.obj"
+                crossorigin></a-asset-item>
+            <a-asset-item id="mtlWF"
+                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/gltf/wall_frame/wall_frame.mtl"
+                crossorigin></a-asset-item>
 
             <a-entity id="butterfly_model"></a-entity>
             <!-- <a-asset-item id="3d_butterfly" src="./gltf/Butterfly1.gltf" preload></a-asset-item> -->
-            <a-asset-item id="floor"
-                src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/gltf/Floor2NoMat.gltf"
-                crossorigin="anonymous" preload></a-asset-item>
-            <a-mixin id="w" material="color: #D3D3D3;shader: flat;" geometry="primitive: box; width: 0.1; depth: 26"
-                preload></a-mixin>
+            <a-entity id="architecture"></a-entity>
 
             <!-- INI NGE-LOAD MIXIN FLOOR & WALL -->
             <a-entity id="mixin_group" preload></a-entity>
@@ -163,7 +177,7 @@
             <a-mixin id="rotyz" rotation="0 90 90"></a-mixin>
 
             <!-- Audio -->
-            
+
 
         </a-assets>
 
@@ -171,6 +185,11 @@
         <a-entity id="camrig" movement-controls="speed: 0.7; controls: keyboard, checkpoint"
             checkpoint-controls="mode: animate; animateSpeed: 10" kinematic-body position="-28 8 40">
             <a-entity camera id="zoomcam" look-controls>
+                <a-entity vrcurr id="vrcur" geometry="primitive:ring; radiusInner:0.01; radiusOuter:0.02"
+                    position="0 0 -1.4" scale="0 0 0" material="shader:flat; color:#84ff68"
+                    animation__mouseenter="property:scale; from:1 1 1; to:2 2 2; startEvents:mouseenter; pauseEvents:mouseleave; dir:reverse; dur:1000; loop:1"
+                    visible="true">
+                </a-entity>
             </a-entity>
         </a-entity>
         <a-entity id="cursor" cursor="ray-origin: mouse" raycaster="objects: [geometry]"></a-entity>
@@ -231,8 +250,7 @@
                 <a-entity id="wall_object"></a-entity>
                 <a-entity id="wall_text"></a-entity>
                 <a-entity id="butterfly" position="0 8.8 -12">
-                    <a-box butterfly scale="1 1 0.5" geometry="width: 10; height: 5.69"
-                        material="src: #kupu1"
+                    <a-box butterfly scale="1 1 0.5" geometry="width: 10; height: 5.69" material="src: #kupu1"
                         rotation="0 0 0"
                         animation__scale="property: scale; to: 1.05 1.05 0.5; dur: 200; startEvents: mouseenter"
                         animation__scale_reverse="property: scale; to: 1 1 0.5; dur: 200; startEvents: mouseleave">
@@ -243,55 +261,31 @@
                 <a-entity id="wall_frame"></a-entity>
 
                 <!-- Wall pillar -->
-                <a-entity
-                    gltf-model="#brickwall"
-                    crossorigin="anonymous" position="-41.983 0.000 -48.060" scale="1.000 6.500 0.500" static-body
-                    rotation="0.000 -90.000 0.000">
+                <a-entity gltf-model="#brickwall" crossorigin="anonymous" position="-41.983 0.000 -48.060"
+                    scale="1.000 6.500 0.500" rotation="0.000 -90.000 0.000">
                 </a-entity>
-                <a-entity
-                    gltf-model="#brickwall"
-                    crossorigin="anonymous" position="-40.020 0.000 -49.954" scale="1.000 6.500 0.500" static-body
-                    rotation="0.000 0.000 0.000"></a-entity>
-                <a-entity
-                    gltf-model="#brickwall"
-                    crossorigin="anonymous" position="41.983 0.000 -48.060" scale="1.000 6.500 0.500" static-body
-                    rotation="0.000 -90.000 0.000"></a-entity>
-                <a-entity
-                    gltf-model="#brickwall"
-                    crossorigin="anonymous" position="40.020 0.000 -49.954" scale="1.000 6.500 0.500" static-body
-                    rotation="0.000 180.000 0.000"></a-entity>
-                <a-entity
-                    gltf-model="#brickwall"
-                    crossorigin="anonymous" position="-40.020 0.000 50.020" scale="1.000 6.500 0.500" static-body
-                    rotation="0.000 0.000 0.000"></a-entity>
-                <a-entity
-                    gltf-model="#brickwall"
-                    crossorigin="anonymous" position="-41.983 0.000 48.149" scale="1.000 6.500 0.500" static-body
-                    rotation="0.000 90.000 0.000"></a-entity>
-                <a-entity
-                    gltf-model="#brickwall"
-                    crossorigin="anonymous" position="40.020 0.000 50.020" scale="1.000 6.500 0.500" static-body
-                    rotation="0.000 0.000 0.000"></a-entity>
-                <a-entity
-                    gltf-model="#brickwall"
-                    crossorigin="anonymous" position="41.983 0.000 48.149" scale="1.000 6.500 0.500" static-body
-                    rotation="0.000 90.000 0.000"></a-entity>
-                <a-entity
-                    gltf-model="#brickwall"
-                    crossorigin="anonymous" position="-15.831 0.000 50.020" scale="1.000 6.500 0.500" static-body
-                    rotation="0.000 180.000 0.000"></a-entity>
-                <a-entity
-                    gltf-model="#brickwall"
-                    crossorigin="anonymous" position="-13.870 0.000 48.149" scale="1.000 6.500 0.500" static-body
-                    rotation="0.000 90.000 0.000"></a-entity>
-                <a-entity
-                    gltf-model="#brickwall"
-                    crossorigin="anonymous" position="15.831 0.000 50.020" scale="1.000 6.500 0.500" static-body
-                    rotation="0.000 180.000 0.000"></a-entity>
-                <a-entity
-                    gltf-model="#brickwall"
-                    crossorigin="anonymous" position="13.870 0.000 48.149" scale="1.000 6.500 0.500" static-body
-                    rotation="0.000 90.000 0.000"></a-entity>
+                <a-entity gltf-model="#brickwall" crossorigin="anonymous" position="-40.020 0.000 -49.954"
+                    scale="1.000 6.500 0.500" rotation="0.000 0.000 0.000"></a-entity>
+                <a-entity gltf-model="#brickwall" crossorigin="anonymous" position="41.983 0.000 -48.060"
+                    scale="1.000 6.500 0.500" rotation="0.000 -90.000 0.000"></a-entity>
+                <a-entity gltf-model="#brickwall" crossorigin="anonymous" position="40.020 0.000 -49.954"
+                    scale="1.000 6.500 0.500" rotation="0.000 180.000 0.000"></a-entity>
+                <a-entity gltf-model="#brickwall" crossorigin="anonymous" position="-40.020 0.000 50.020"
+                    scale="1.000 6.500 0.500" rotation="0.000 0.000 0.000"></a-entity>
+                <a-entity gltf-model="#brickwall" crossorigin="anonymous" position="-41.983 0.000 48.149"
+                    scale="1.000 6.500 0.500" rotation="0.000 90.000 0.000"></a-entity>
+                <a-entity gltf-model="#brickwall" crossorigin="anonymous" position="40.020 0.000 50.020"
+                    scale="1.000 6.500 0.500" rotation="0.000 0.000 0.000"></a-entity>
+                <a-entity gltf-model="#brickwall" crossorigin="anonymous" position="41.983 0.000 48.149"
+                    scale="1.000 6.500 0.500" rotation="0.000 90.000 0.000"></a-entity>
+                <a-entity gltf-model="#brickwall" crossorigin="anonymous" position="-15.831 0.000 50.020"
+                    scale="1.000 6.500 0.500" rotation="0.000 180.000 0.000"></a-entity>
+                <a-entity gltf-model="#brickwall" crossorigin="anonymous" position="-13.870 0.000 48.149"
+                    scale="1.000 6.500 0.500" rotation="0.000 90.000 0.000"></a-entity>
+                <a-entity gltf-model="#brickwall" crossorigin="anonymous" position="15.831 0.000 50.020"
+                    scale="1.000 6.500 0.500" rotation="0.000 180.000 0.000"></a-entity>
+                <a-entity gltf-model="#brickwall" crossorigin="anonymous" position="13.870 0.000 48.149"
+                    scale="1.000 6.500 0.500" rotation="0.000 90.000 0.000"></a-entity>
                 <!--  -->
 
             </a-entity>
@@ -413,7 +407,7 @@
 
         <!-- VIRTUAL TOUR 360: MAP -->
         <div id="map" style="background-color: #FFFFFF; color:black; border-radius: 999px; padding: 8px;">
-            <!-- <img src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/map360.png"
+            <!-- <img alt="" src="https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/icons/map360.png"
                 crossorigin="anonymous" class="icon"> -->
             <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"
                 style="margin: 2px 2px">
